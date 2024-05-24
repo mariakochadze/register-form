@@ -1,0 +1,138 @@
+*
+{margin: 0;
+padding:0;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: normal;}
+body{
+    background-color: #4070f4;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login{
+    background-color: #ffffff;
+    width: 400px;
+    margin: 150px auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #cdcdcd;
+    text-align: center;
+}
+.forgotPass{
+    margin-top: 20px;
+}
+.login input,.login input[type='password']#mainpass{
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+   border: none;
+    outline: none
+    
+}
+.charcho{
+    border: 1px solid #606060;
+    border-radius: 12px;
+    padding-right: 15px;
+    
+}
+.login input[type='submit']{
+    background-color: #4070f4;
+    color: #d4d4d4;
+    border-radius: 12px;
+
+}
+.login input[type='submit']:hover{
+background-color: #2b4ca7;
+cursor: pointer;
+}
+.login input[type="password"]{
+    width: 80%;
+}
+.login input[type="email"], .login input[type='password']#mainpass {
+    border: 1px solid #606060; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.login input[type='password']#mainpass{
+    margin-top: 0;
+}
+
+
+.line{
+    width: 40%;
+    height: 1px;
+    background-color: #cdcdcd;
+}
+.or{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.social a{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    border: 1px solis #cdcdcd;
+    border-radius: 12px;
+    margin: 20px 0;
+    position: relative;
+
+}
+.facebook a{
+   background-color: #4267b2;
+   color: #ffffff;
+}
+.facebook a::after{
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-image: url(../img/facebook\ \(2\).png);
+    background-size: 100%;
+    position: absolute;
+    left: 20px;
+    top: 12px;
+}
+.facebook a:hover{
+    background-color: #4070f4;
+    cursor: pointer;
+}
+.google a{
+    background-color: #9d9ea4;
+}
+.google a::after{
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-image: url(../img/search.png);
+    background-size: 100%;
+    position: absolute;
+    left: 20px;
+    top: 12px;
+}
+.google a:hover{
+    background-color: #9a9a9a;
+    cursor: pointer;
+}
+.password{
+    position: relative;
+}
+.password{
+
+   
+   width: 20px;
+   height: 20px;
+   
+}
+
+.social.submit a{
+    border: 1px solid #9d9ea4;
+}
